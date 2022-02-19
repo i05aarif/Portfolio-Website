@@ -1,0 +1,209 @@
+/*    Default Layout: 960px. 
+Gutters: 24px.
+Outer margins: 48px.
+Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+/*    Tablet Layout: 768px.
+Gutters: 24px.
+Outer margins: 28px.
+Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.home_page_left{
+width: 100%;
+float: none;
+}
+.home_page_right{
+width: 100%;
+float: none;
+}
+.sidebar {
+  text-align: center;
+  width: 80%;
+	left: 10%;
+}
+.slider_image {
+  height: 280px;
+}
+.new_book_content {
+width: 33%;
+}
+.product_search {
+margin-left: 30px;
+}
+.car_c_wrap {
+position: relative;
+left: 0%;
+}
+.pre_slider_sidebar {
+left: 80%;
+}
+.sidebar_page_heading {
+padding: 100px 5px 10px;
+}
+#wpmenucartli {
+  padding: 4px;
+}
+}
+/*    Mobile Layout: 320px.
+Gutters: 24px.
+Outer margins: 34px.
+Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+@media only screen and (max-width: 768px) {
+.home_page_left{
+width: 100%;
+float: none;
+}
+.home_page_right{
+width: 100%;
+float: none;
+}
+.sidebar {
+  text-align: center;
+  width: 80%;
+	left: 10%;
+}
+#wpmenucartli {
+  padding: 4px;
+}
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+float: none !important;
+}
+.menu_responsive{
+display: block;
+top: 20%;
+}
+.cart_menu {
+display: none;
+}
+.responsive_menu_wrap{
+display: block;
+}
+.responsive_menu ul{
+left: 80%;
+}
+.new_book_content {
+width: 33%;
+}
+.pre_slider_center{
+left: 2%;
+}
+.next_slider_center {
+left: 93%;
+}
+.car_c_wrap {
+position: relative;
+left: 0%;
+}
+.woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
+float: none;
+width: 100%;
+}
+.woocommerce form .form-row-first, .woocommerce-page form .form-row-first {
+float: none;
+width: 100%;
+}
+.show_per_class p {
+padding: 4px 15px 7px;
+}
+.woocommerce-notices-wrapper {
+left: 3%;
+width: 95%;
+}
+.slider_image {
+height: 250px;
+}
+.woocommerce #content table.cart .product-thumbnail, .woocommerce table.cart .product-thumbnail, .woocommerce-page #content table.cart .product-thumbnail, .woocommerce-page table.cart .product-thumbnail {
+display: block;
+text-align: center !important;
+}
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before {
+content: attr(data-title) " ";
+}
+.slider_sidebar_wrap {
+width: 70%;
+position: relative;
+left: 15%;
+}
+.pre_slider_sidebar {
+  left: 93%;
+  top: 10%;
+  font-size: 25px;
+}
+.next_slider_sidebar{
+	 font-size: 25px;
+}
+.next_slider {
+  left: 91%;
+}
+.support_info_wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.support_info i {
+  font-size: 40px;
+  display: block;
+  margin-bottom: 30px;
+}
+.support_info h2 {
+  font-size: 18px;
+}
+
+}
+
+
+@media only screen and (max-width: 450px) {
+
+}
+/*    Wide Mobile Layout: 480px.
+Gutters: 24px.
+Outer margins: 22px.
+Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+@media only screen and (min-width: 300px) and (max-width: 450px) {
+
+.pre_slider_sidebar {
+left: 84%;
+}
+#wpmenucartli {
+  padding: 3px;
+}
+.menu_responsive {
+  top: 30%;
+  left: 60%;
+}
+.slider_image {
+  height: 200px;
+}
+.pre_slider{
+	 left:0%;
+}
+.next_slider {
+  left: 90%;
+}
+.slider_sidebar_wrap {
+width: 70%;
+position: relative;
+left: 15%;
+}
+
+.pre_slider_sidebar {
+  left: 93%;
+}
+}
+/*  Retina media query.
+Overrides styles for devices with a 
+device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+}
